@@ -5,13 +5,13 @@ It is a bundled package.
 ### Installation
 
 ```node.js
-npm i shadowWizard --save
+npm i @dishebh/shadow-wizard --save
 ```
 
 then ...
 
 ```node.js
-import { shadowWizard } from "shadowWizard";
+import { shadowWizard } from "@dishebh/shadow-wizard";
 
 shadowWizard({
   shadowType: "soft",
