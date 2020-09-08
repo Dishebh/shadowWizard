@@ -8,10 +8,10 @@ export function shadowWizard(option) {
   }
 
   images.forEach((image) => {
-    image.getElementsByClassName.boxShadow = `10px 10px ${option.shadowType} 1px rgba(0, 0, 0, 0.2)`;
+    image.style.boxShadow = `10px 10px ${option.shadowType} 1px rgba(0, 0, 0, 0.2)`;
 
     if (option.padding) {
-      image.getElementsByClassName.padding = "2rem";
+      image.style.padding = "2rem";
     }
   });
 }
